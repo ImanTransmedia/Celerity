@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabUseExamples.unity
     guid: 509f8fa80c708b343a603a4771d35c85
   - enabled: 0
-    path: Assets/Oculus/Interaction/Samples/Scenes/Examples/LocomotionExamples.unity
+    path: Assets/Celerity/Scenes/ExemploUnificacionVR.unity
     guid: d37ed7e92220d1045a36bc73c7c4cf16
   - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/PokeExamples.unity
