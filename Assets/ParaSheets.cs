@@ -74,10 +74,10 @@ public class ParaSheets : MonoBehaviour
 
     public void Update()
     {
-        if (OVRInput.GetDown(OVRInput.RawButton.A, OVRInput.Controller.RTouch))
+       /* if (OVRInput.GetDown(OVRInput.RawButton.A, OVRInput.Controller.RTouch))
         {
             Send();
-        }
+        }*/
     }
 
     public void Send()
