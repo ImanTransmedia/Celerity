@@ -332,15 +332,15 @@ MonoBehaviour:
     HasValue: 0
   displaySortOrder: 0
   childIdentifiers:
-  - 46fbfdf3fc43db0458918377fd40293e
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - 2c5177b11d81d824dbb064f9ac8527da
+  - fd7c55dab0fce234b8c25f6ffca523c1
   - 52eb9df5db46521439908db3a29a1bbb
   - b7716510a1f36934c87976f3a81dbf3d
-  - 2c5177b11d81d824dbb064f9ac8527da
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - c88d16e5272a4e241b0ef0ac2e53b73d
   - e7a046c753c3c3d4aacc91f6597f310d
-  - fd7c55dab0fce234b8c25f6ffca523c1
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - 46fbfdf3fc43db0458918377fd40293e
   codecChannels:
     Value: []
     HasValue: 0
@@ -493,8 +493,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../Documents/FMOD Studio/puntonetaudio/puntonetaudio.fspro
-  sourceBankPath: ../../../Documents/FMOD Studio/puntonetaudio/Build
+  sourceProjectPath: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/puntonetaudio.fspro
+  sourceBankPath: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -534,17 +534,17 @@ MonoBehaviour:
   HideSetupWizard: 0
   LastEventReferenceScanVersion: 131605
   Platforms:
-  - {fileID: -155320894989662978}
-  - {fileID: -6265008617826660830}
-  - {fileID: 8795491776534391440}
-  - {fileID: 2111543997832078668}
+  - {fileID: -9066924843397124444}
+  - {fileID: -6675132506139427423}
   - {fileID: -6378941433896530264}
   - {fileID: -6294215418316125400}
-  - {fileID: -9066924843397124444}
-  - {fileID: 1151689941124711915}
-  - {fileID: 2536140456376967554}
+  - {fileID: -6265008617826660830}
   - {fileID: -1241099198728495255}
-  - {fileID: -6675132506139427423}
+  - {fileID: -155320894989662978}
+  - {fileID: 1151689941124711915}
+  - {fileID: 2111543997832078668}
+  - {fileID: 2536140456376967554}
+  - {fileID: 8795491776534391440}
   MigratedPlatforms: 0500000012000000060000000b000000080000000a000000090000000c000000150000000200000001000000
 --- !u!114 &1151689941124711915
 MonoBehaviour:

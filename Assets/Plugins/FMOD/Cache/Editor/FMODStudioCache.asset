@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2466752425374709867
+--- !u!114 &-2473656539221623583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,39 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Name: bank:/Referencias.bank
   m_EditorClassIdentifier: 
-  Path: ../../../Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638294219168587037
+  Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Referencias.bank
+  Name: Referencias
+  StudioPath: bank:/Referencias
+  lastModified: 638294249097142381
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 494
   - Name: Mobile
-    Value: 1036
-  Exists: 1
---- !u!114 &-2064171813308419263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638294219168597039
-  FileSizes:
-  - Name: Desktop
-    Value: 766
-  - Name: Mobile
-    Value: 766
+    Value: 494
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -57,18 +35,18 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -2064171813308419263}
-  - {fileID: -2466752425374709867}
-  - {fileID: 3157280263011434740}
+  - {fileID: 2628983909177843570}
+  - {fileID: 2967499065127890089}
+  - {fileID: -2473656539221623583}
   EditorEvents: []
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2466752425374709867}
+  - {fileID: 2967499065127890089}
   StringsBanks:
-  - {fileID: -2064171813308419263}
-  cacheTime: 638294219168617038
+  - {fileID: 2628983909177843570}
+  cacheTime: 638294249097142381
   cacheVersion: 131605
---- !u!114 &3157280263011434740
+--- !u!114 &2628983909177843570
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,15 +56,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Referencias.bank
+  m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../../Documents/FMOD Studio/puntonetaudio/Build/Desktop/Referencias.bank
-  Name: Referencias
-  StudioPath: bank:/Referencias
-  lastModified: 638294219168617038
+  Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638294249097076680
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 766
   - Name: Mobile
-    Value: 494
+    Value: 766
+  Exists: 1
+--- !u!114 &2967499065127890089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638294249097031056
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  - Name: Mobile
+    Value: 1036
   Exists: 1
