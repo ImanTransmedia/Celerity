@@ -15,12 +15,12 @@ MonoBehaviour:
   Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Referencias.bank
   Name: Referencias
   StudioPath: bank:/Referencias
-  lastModified: 638294249097142381
+  lastModified: 638295163974993602
   FileSizes:
   - Name: Desktop
-    Value: 494
+    Value: 459776
   - Name: Mobile
-    Value: 494
+    Value: 894272
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -38,14 +38,42 @@ MonoBehaviour:
   - {fileID: 2628983909177843570}
   - {fileID: 2967499065127890089}
   - {fileID: -2473656539221623583}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 915247887500154844}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2967499065127890089}
   StringsBanks:
   - {fileID: 2628983909177843570}
-  cacheTime: 638294249097142381
+  cacheTime: 638295163974993602
   cacheVersion: 131605
+--- !u!114 &915247887500154844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AmbientMusic1
+  m_EditorClassIdentifier: 
+  Path: event:/AmbientMusic1
+  Guid:
+    Data1: -1622268900
+    Data2: 1079168905
+    Data3: -1292406385
+    Data4: -1012731950
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 34000
 --- !u!114 &2628983909177843570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,12 +89,12 @@ MonoBehaviour:
   Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638294249097076680
+  lastModified: 638295157014372466
   FileSizes:
   - Name: Desktop
-    Value: 766
+    Value: 888
   - Name: Mobile
-    Value: 766
+    Value: 888
   Exists: 1
 --- !u!114 &2967499065127890089
 MonoBehaviour:
@@ -83,10 +111,10 @@ MonoBehaviour:
   Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638294249097031056
+  lastModified: 638295157014342472
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1884
   - Name: Mobile
-    Value: 1036
+    Value: 1884
   Exists: 1
