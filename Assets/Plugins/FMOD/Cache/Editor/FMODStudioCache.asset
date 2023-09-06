@@ -1,5 +1,86 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7743037114962293503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambiente_exterior
+  m_EditorClassIdentifier: 
+  Path: event:/Ambiente_exterior
+  Guid:
+    Data1: -2129638188
+    Data2: 1241786085
+    Data3: 1101542806
+    Data4: -1000983005
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 10
+  Length: 0
+--- !u!114 &-7660920161770196326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/CancelButton1
+  m_EditorClassIdentifier: 
+  Path: event:/CancelButton1
+  Guid:
+    Data1: -1643732006
+    Data2: 1136202396
+    Data3: 597869229
+    Data4: -1158128003
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4498317195598917651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PhoneRing1
+  m_EditorClassIdentifier: 
+  Path: event:/PhoneRing1
+  Guid:
+    Data1: 835422458
+    Data2: 1172051583
+    Data3: 395992751
+    Data4: -1251722703
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 7.6
+  Length: 0
 --- !u!114 &-2473656539221623583
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,12 +96,12 @@ MonoBehaviour:
   Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Referencias.bank
   Name: Referencias
   StudioPath: bank:/Referencias
-  lastModified: 638295163974993602
+  lastModified: 638295317860382214
   FileSizes:
   - Name: Desktop
-    Value: 459776
+    Value: 1075552
   - Name: Mobile
-    Value: 894272
+    Value: 2305376
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -40,13 +121,48 @@ MonoBehaviour:
   - {fileID: -2473656539221623583}
   EditorEvents:
   - {fileID: 915247887500154844}
+  - {fileID: -7743037114962293503}
+  - {fileID: 5904247968290336548}
+  - {fileID: 1785166658538016760}
+  - {fileID: 7830409632048818259}
+  - {fileID: 7270805811486186569}
+  - {fileID: -4498317195598917651}
+  - {fileID: 200727310927600945}
+  - {fileID: -7660920161770196326}
   EditorParameters: []
   MasterBanks:
   - {fileID: 2967499065127890089}
   StringsBanks:
   - {fileID: 2628983909177843570}
-  cacheTime: 638295163974993602
+  cacheTime: 638295317860382214
   cacheVersion: 131605
+--- !u!114 &200727310927600945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AcceptButton1
+  m_EditorClassIdentifier: 
+  Path: event:/AcceptButton1
+  Guid:
+    Data1: 1080189893
+    Data2: 1242071438
+    Data3: 1026282900
+    Data4: 161489406
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &915247887500154844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,6 +190,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 34000
+--- !u!114 &1785166658538016760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Computer1
+  m_EditorClassIdentifier: 
+  Path: event:/Computer1
+  Guid:
+    Data1: 365058057
+    Data2: 1241334377
+    Data3: 333856899
+    Data4: -722318020
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2628983909177843570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,12 +232,12 @@ MonoBehaviour:
   Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638295157014372466
+  lastModified: 638295317859504869
   FileSizes:
   - Name: Desktop
-    Value: 888
+    Value: 1276
   - Name: Mobile
-    Value: 888
+    Value: 1276
   Exists: 1
 --- !u!114 &2967499065127890089
 MonoBehaviour:
@@ -111,10 +254,91 @@ MonoBehaviour:
   Path: ../../Users/aguch/Documents/FMOD Studio/puntonetaudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638295157014342472
+  lastModified: 638295317859479787
   FileSizes:
   - Name: Desktop
     Value: 1884
   - Name: Mobile
     Value: 1884
   Exists: 1
+--- !u!114 &5904247968290336548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TVCinema2
+  m_EditorClassIdentifier: 
+  Path: event:/TVCinema2
+  Guid:
+    Data1: 239757918
+    Data2: 1301961295
+    Data3: 808986779
+    Data4: 734074123
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5.6
+  Length: 0
+--- !u!114 &7270805811486186569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Buttons
+  m_EditorClassIdentifier: 
+  Path: event:/Buttons
+  Guid:
+    Data1: -549110293
+    Data2: 1260530166
+    Data3: 1199779760
+    Data4: -1914837162
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7830409632048818259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ConsoleRetro1
+  m_EditorClassIdentifier: 
+  Path: event:/ConsoleRetro1
+  Guid:
+    Data1: 1816421990
+    Data2: 1215116015
+    Data3: 1848740242
+    Data4: 1675976356
+  Banks:
+  - {fileID: -2473656539221623583}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
