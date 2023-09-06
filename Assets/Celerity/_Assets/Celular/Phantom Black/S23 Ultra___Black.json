@@ -1,0 +1,131 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "scene": {
+        "scale_factor": 67.76960754394531
+    },
+    "shaders": {
+        "Main shader": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "BRDF": {
+                    "uniform_anisotropy_axis": 2,
+                    "uniform_brdf_type": 3,
+                    "uniform_gtr_gamma": 2
+                },
+                "Base color": {
+                    "uniform_diffuse_amount": 1
+                },
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "nbSamples": 16
+                },
+                "Options": {
+                    "uniform_double_sided": false,
+                    "uniform_trace_reflections": true,
+                    "uniform_trace_refractions": true
+                },
+                "Reflection": {
+                    "uniform_fresnel_ior": 1.600000023841858,
+                    "uniform_lock_fresnel_ior": true,
+                    "uniform_reflection_amount": 1,
+                    "uniform_use_fresnel": true
+                },
+                "Refraction": {
+                    "uniform_refraction_amount": 1,
+                    "uniform_refraction_glossiness": 1,
+                    "uniform_refraction_ior": 1.600000023841858
+                }
+            },
+            "shader": "vraymtl-metallic",
+            "shaderInstance": "Main shader"
+        },
+        "Main shader (Copy)": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "BRDF": {
+                    "uniform_anisotropy_axis": 2,
+                    "uniform_brdf_type": 3,
+                    "uniform_gtr_gamma": 2
+                },
+                "Base color": {
+                    "uniform_diffuse_amount": 1
+                },
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "nbSamples": 16
+                },
+                "Options": {
+                    "uniform_double_sided": false,
+                    "uniform_trace_reflections": true,
+                    "uniform_trace_refractions": true
+                },
+                "Reflection": {
+                    "uniform_fresnel_ior": 1.600000023841858,
+                    "uniform_lock_fresnel_ior": true,
+                    "uniform_reflection_amount": 1,
+                    "uniform_use_fresnel": true
+                },
+                "Refraction": {
+                    "uniform_refraction_amount": 1,
+                    "uniform_refraction_glossiness": 1,
+                    "uniform_refraction_ior": 1.600000023841858
+                }
+            },
+            "shader": "vraymtl-metallic",
+            "shaderInstance": "Main shader (Copy)"
+        }
+    },
+    "texturesets": {
+        "Cameras": {
+            "shader": "Main shader"
+        },
+        "Cams Glass": {
+            "shader": "Main shader"
+        },
+        "Charge slot": {
+            "shader": "Main shader"
+        },
+        "Keys": {
+            "shader": "Main shader"
+        },
+        "Lenses Glass": {
+            "shader": "Main shader"
+        },
+        "Logo": {
+            "shader": "Main shader"
+        },
+        "Phone_Screen": {
+            "shader": "Main shader"
+        },
+        "S-Pen": {
+            "shader": "Main shader"
+        },
+        "Screen Glass": {
+            "shader": "Main shader"
+        }
+    }
+}
