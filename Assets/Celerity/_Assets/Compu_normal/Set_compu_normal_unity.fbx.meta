@@ -3,7 +3,532 @@ guid: d2db153b4105a614c89b51057ec26700
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_27_inch_screen_black_plastic
+    second: {fileID: 2100000, guid: 79bae5e097e4d7b49b1d563e2679b1c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_27_inch_screen_chrome
+    second: {fileID: 2100000, guid: a5743d06e710cd34a80613c86a543475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_27_inch_screen_display
+    second: {fileID: 2100000, guid: 284ef623420183a489097d8cda601bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_alex_stand_white
+    second: {fileID: 2100000, guid: ace44a40fb1abc044a32ace2743c03d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_books_base_white
+    second: {fileID: 2100000, guid: 986c3813a2b1ba44ab9d63d76c8d5b21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_books_label_1
+    second: {fileID: 2100000, guid: 608d1dee78616e24492135e54b3d1860, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_books_label_3
+    second: {fileID: 2100000, guid: d309bebd005678740bd7e4cb7f2632ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_books_label_5
+    second: {fileID: 2100000, guid: 793514076cd53824386f72506df4eca4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_brushes_black
+    second: {fileID: 2100000, guid: a1bcfb8cd81ec42498b968661b214119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_brushes_chrome
+    second: {fileID: 2100000, guid: c163f83670599e74188c0c932fe27973, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_brushes_gray
+    second: {fileID: 2100000, guid: e5406d3dde3a73a4f93f61931bbbd1d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_brushes_hair
+    second: {fileID: 2100000, guid: 851a340ef72dc1442ad015d28da80b10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_brushes_wood
+    second: {fileID: 2100000, guid: a0498e32d590c6342acf2c4bc1f31602, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_calendar_print
+    second: {fileID: 2100000, guid: 09390767048f8e1499b9a7d6a86f2556, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_calendar_print_metal
+    second: {fileID: 2100000, guid: f71acbf0d044ce54aaa51d10002b6f26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_coffe_cup_green_stripe
+    second: {fileID: 2100000, guid: c591f4755849c8247aa7299e5982b13d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_coffe_cup_paper
+    second: {fileID: 2100000, guid: 3037046cfbffa1347877517fe6677dd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_coffe_cup_plastic
+    second: {fileID: 2100000, guid: 657188613fb26fa429aa8c6830578aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_coffe_cup_white
+    second: {fileID: 2100000, guid: 6d9afb62336848546b17849c1bdff554, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_cup
+    second: {fileID: 2100000, guid: c2512a389a595bf43a0cfff2d2cd6101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_decorative_deer_gold
+    second: {fileID: 2100000, guid: eabaf9297b405ea4db0e4b72669bda4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_decorative_deer_silver
+    second: {fileID: 2100000, guid: ed6a5c74e5b31ba42a991d1e2b89f8a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_decorative_hand
+    second: {fileID: 2100000, guid: 3d1a87b9d29d90842baa3fe65371ba2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_fluns_folders_black
+    second: {fileID: 2100000, guid: 05948b0a054afc842901d04128685fbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_fluns_folders_metal
+    second: {fileID: 2100000, guid: fa21045757e38ec49abfc47be8dbba3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_fluns_folders_paper_gray
+    second: {fileID: 2100000, guid: cf8514d7d742c1d4db1667646acd73fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_fluns_folders_papper_white
+    second: {fileID: 2100000, guid: 3bede04a5d0593a43b240fb0707b8852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_fluns_folders_white
+    second: {fileID: 2100000, guid: 422c3e2f99ae2a142a82043b3ca9c4ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_fniss_bin
+    second: {fileID: 2100000, guid: 3da4b6a8d57ed5c4c8948f849e059b88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_headphones_chrome
+    second: {fileID: 2100000, guid: c38849d71581ed74eb7708d780ad9eb7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_headphones_resin
+    second: {fileID: 2100000, guid: 0ed264a403c38f0459c38457e045adff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_headphones_white
+    second: {fileID: 2100000, guid: 7aaa73f9f7ef98f45aff95d89a2e9575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_ikea_ranarp_lamp_black_base
+    second: {fileID: 2100000, guid: 0c6e3d083c5831f42a6b428d4a789699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_ikea_ranarp_lamp_metal_gold
+    second: {fileID: 2100000, guid: bc68c16695949964297aba8044ff9a3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_ikea_ranarp_lamp_metal_silver
+    second: {fileID: 2100000, guid: cf799deceae3acc4487889b89aab6759, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_ikea_ranarp_lamp_whire
+    second: {fileID: 2100000, guid: e6a99383e4210a64098359c2f033e246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_ikea_ranarp_lamp_white_base
+    second: {fileID: 2100000, guid: 310035b2b222f1a4c9d8173537a9ed93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_journals_black
+    second: {fileID: 2100000, guid: 03c2528316eeb1641838f4d88d7dff6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_journals_cover_reise
+    second: {fileID: 2100000, guid: 37a8fe7543c4c0e4da58ec497ee65b3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_journals_white
+    second: {fileID: 2100000, guid: 213c70749763b074685f93b003137398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_keyboard_base
+    second: {fileID: 2100000, guid: 290e7728fffcbd6439bf3174c025e2d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_keyboard_chrome
+    second: {fileID: 2100000, guid: 4c8c8c262d615da459f2f8b350a82cd5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_keyboard_keys_prints
+    second: {fileID: 2100000, guid: 5cd34a876ceaed94481a8164fbbe62cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_langfjall_chair_fabric
+    second: {fileID: 2100000, guid: 4a5e36c224bf5d344a17c77657416250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_langfjall_chair_gray
+    second: {fileID: 2100000, guid: 9309951a3fd4e3141afff06db638f7ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_langfjall_chair_plastic_white
+    second: {fileID: 2100000, guid: 54c5d8025a32f954082e5ae514120551, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_linnmon_table_top_wood
+    second: {fileID: 2100000, guid: 112c124d494445845bbeedd804475575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_gold_metal
+    second: {fileID: 2100000, guid: 705c1da931061354e83f28c822dbc8b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_paper
+    second: {fileID: 2100000, guid: cfc541b69ab6d9447b7417c2f1209bb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_pin_1
+    second: {fileID: 2100000, guid: f9a9ab5101a60004aa792e3e4707c479, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_pin_2
+    second: {fileID: 2100000, guid: 781904601db821243b1fb282e5ea8b73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_pin_3
+    second: {fileID: 2100000, guid: c524ec2cd52ab074fadd3f73e8910cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_pin_4
+    second: {fileID: 2100000, guid: e3635722c5ef26c4f8ce413bd11833b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_memo_board_pin_5
+    second: {fileID: 2100000, guid: 903d5e4936e6ec84e9a8ae69c1e5bf7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_notebook_bookmark
+    second: {fileID: 2100000, guid: 82718773c22eaa149a3541a6c3d7caac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_notebook_cover
+    second: {fileID: 2100000, guid: 1dba0bb5bb73be048a88f95988a6f956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_notebook_pages
+    second: {fileID: 2100000, guid: de53ddb499dcadd448687901c186d885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_open_journal_page_1
+    second: {fileID: 2100000, guid: 0f84329c76703fe4ba201ca9c40fdf88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_open_journal_page_2
+    second: {fileID: 2100000, guid: ac353acb1eb53c145a2a0d712486f6a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pages
+    second: {fileID: 2100000, guid: f046b7d80d2ea8547826ddf7b4459b0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pampas_leaf
+    second: {fileID: 2100000, guid: 783f3e2e70a78124f829b55acaa44ad5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pampas_stem
+    second: {fileID: 2100000, guid: 5a882b14025dc8e42823f745c20e3355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_paper_box
+    second: {fileID: 2100000, guid: 202ac2f39437be349a4331e63a671d6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pc_body
+    second: {fileID: 2100000, guid: a666847a362e7404887336eecf80836e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pc_body_additional
+    second: {fileID: 2100000, guid: cd4980661d075384d9be94d6afb76cae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pc_chrome
+    second: {fileID: 2100000, guid: bea2516a6d50fea438d7fb5f9d1dbe0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pc_mouse_black
+    second: {fileID: 2100000, guid: 627c89685c84c8949a3f01f7851d3771, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pc_mouse_white
+    second: {fileID: 2100000, guid: a4985ba049d304141aaea778fb3ff09f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pc_side_glass
+    second: {fileID: 2100000, guid: b02ca8e1024e3994b968cd23896871bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pens_black
+    second: {fileID: 2100000, guid: 61abd2dc029cbae459a3fb2767f05de7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pens_white
+    second: {fileID: 2100000, guid: fb2d6e33b3ebe2f428ddc01ceec755e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_picture_in_frame_frame_black
+    second: {fileID: 2100000, guid: e239bf7b96e7b414e901d35c930c08b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_picture_in_frame_frame_white
+    second: {fileID: 2100000, guid: 98822a808a3fc98448690acf7c345bd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_picture_in_frame_glass
+    second: {fileID: 2100000, guid: 0f83232eaadb0704c800fef6b02b5780, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_picture_in_frame_painting_1
+    second: {fileID: 2100000, guid: 0775e68efba74314081264a05b6e3ff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_picture_in_frame_painting_2
+    second: {fileID: 2100000, guid: dd53c2c58cd07a543aec42f3018bac0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_picture_in_frame_painting_3
+    second: {fileID: 2100000, guid: a6b9522f22f40cf41ace318ac10015d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pictures_frame_black
+    second: {fileID: 2100000, guid: 74df7b541634f584ead4dcaa974fb50f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pictures_pic1
+    second: {fileID: 2100000, guid: a3d801936a2764047a0de10dc00b933b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pictures_pic2
+    second: {fileID: 2100000, guid: 485bfeeddf84d624e8e3faab22f40a31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pictures_pic3
+    second: {fileID: 2100000, guid: 83487d2955afb8946b52f402a0aedadb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_pictures_white
+    second: {fileID: 2100000, guid: e08065cc8bab5954485b158da6d63ce4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_plaid_biege
+    second: {fileID: 2100000, guid: 1e5f053df7a939e40b8f837fbbbace02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_plaid_gray
+    second: {fileID: 2100000, guid: 538e27be19cc22c49afd53bcc564b0e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_plaid_white
+    second: {fileID: 2100000, guid: 8084c66d2f51e9d4aa04aa685c293648, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_plant_ground
+    second: {fileID: 2100000, guid: 5d09e2975d7746c4b93be5dc312d007e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_plant_leaf
+    second: {fileID: 2100000, guid: 4618f880439e94142a1d21a00b30fe61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_plant_pot
+    second: {fileID: 2100000, guid: bf08fb3e9a2137e47a26e15aab571191, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_printer_gray_plastic
+    second: {fileID: 2100000, guid: d31ac37aa9ac4d44dbc1aef45664590b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_printer_white_plastic
+    second: {fileID: 2100000, guid: be54f51c2951451428192aadb1057a1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_shelf_white
+    second: {fileID: 2100000, guid: ff3f58e17d9b9ce49ae7e87f19d56fe4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_silver_vases
+    second: {fileID: 2100000, guid: ae006199bf3412144aed7294186821c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_skarig_clock_dark_green
+    second: {fileID: 2100000, guid: c191d379fd9b70749a8138d9dcd2ca2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_skarig_clock_gold
+    second: {fileID: 2100000, guid: b9d04d4e31a5a144c8db615b006fb87a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_skarig_clock_green
+    second: {fileID: 2100000, guid: 30436b62271f6ef4d8a91f8cac7d01e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_skarig_clock_white
+    second: {fileID: 2100000, guid: 8419da4d359c5004e89b0c03bae7e453, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_storrage_box_chrome
+    second: {fileID: 2100000, guid: 40121b5fc37781346a8945a2d73d96ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_storrage_box_gold
+    second: {fileID: 2100000, guid: ca5d6716aa3102c419cf05bf3c4622e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_storrage_box_gray
+    second: {fileID: 2100000, guid: d21e350b313444e46a714baf959e8e30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_storrage_box_white
+    second: {fileID: 2100000, guid: f1a811e10cec1234da0be1f4fb399bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_table_leg
+    second: {fileID: 2100000, guid: 6b992052e16a37947b7142124afa8225, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_trash_bucket_papers
+    second: {fileID: 2100000, guid: cd4e85f577ce2f343a5877d4bb23c36a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_tray
+    second: {fileID: 2100000, guid: b1cb131beccfedf46a597e8c2012d692, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_vase_silver
+    second: {fileID: 2100000, guid: e7ce5840e3b432f4099a6f78bd67baea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: office_workplace_19_vase_white
+    second: {fileID: 2100000, guid: 347f31a88491b3e49ac186849a257c5b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
