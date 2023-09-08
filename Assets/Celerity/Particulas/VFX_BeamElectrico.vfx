@@ -3298,7 +3298,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614687}
   m_ExposedName: Pos1
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -15421,7 +15421,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615097}
   m_ExposedName: Color 1
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
