@@ -11,8 +11,9 @@ public class cellOn : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "hand")
+        if (other.tag == "Hand")
         {
+            Debug.Log("triggerea la manito");
             FMODUnity.RuntimeManager.PlayOneShot(fmodEventPath);
         }
     }

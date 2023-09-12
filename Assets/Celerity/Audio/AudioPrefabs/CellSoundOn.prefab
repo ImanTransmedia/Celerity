@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6064160484630768179}
   - component: {fileID: 4650153709422283572}
+  - component: {fileID: 2836712063322556216}
   m_Layer: 0
   m_Name: CellSoundOn
   m_TagString: Untagged
@@ -53,3 +54,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.40217876, y: 1, z: 1}
   m_Center: {x: -0.021641254, y: 0, z: 0}
+--- !u!114 &2836712063322556216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6273892975977141552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0d643e2c1c6354db5d462cb2f6ae09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fmodEventPath: event:/CellPhoneOnRef2
