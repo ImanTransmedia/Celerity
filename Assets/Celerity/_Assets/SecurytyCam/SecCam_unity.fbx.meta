@@ -3,7 +3,77 @@ guid: 43c8910f61a36e74d9d5b9259e9c0bc6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_cameraBlackPlastic1
+    second: {fileID: 2100000, guid: 5115e9d49954ad04eb3043545bf3e99c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_cameraBody2
+    second: {fileID: 2100000, guid: 55a0b9d0d76694b4786fde1f637ef646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_cameraLabel1
+    second: {fileID: 2100000, guid: c72657b20a450874383beca833a91d69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_cameraRearPlast2
+    second: {fileID: 2100000, guid: 3fb625f5bf2b25444a65d2f97a058252, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_cameraRoof2
+    second: {fileID: 2100000, guid: 6ef8a0a036c01ac4099c794596f7a251, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_diodGlass1
+    second: {fileID: 2100000, guid: 010f3f55ce13a8d4c9e692a5ec6ed7d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_diods2
+    second: {fileID: 2100000, guid: 4d06c479023aa024fa7c86da7005257a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_lensBottom2
+    second: {fileID: 2100000, guid: 8d3c6394593745f4fa4071d0437ad4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_lensGlass2
+    second: {fileID: 2100000, guid: 2699350ea212f1e459dfb0593ccb5908, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_lesn1
+    second: {fileID: 2100000, guid: b1b78611d4b955344a46710e72b48427, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_metal1
+    second: {fileID: 2100000, guid: 1fe68edb3e7e8fb49bd0c7da319aac09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_plasticBlac1
+    second: {fileID: 2100000, guid: f47340de0a16eee4aa0bed6e3c297b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_screwTop2
+    second: {fileID: 2100000, guid: 7c5499cf598fb5d4e9a7937f57417404, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zosi980H_screwTopSide1
+    second: {fileID: 2100000, guid: 03427d0e3119f52469ca716a61e7658f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -43,8 +113,8 @@ ModelImporter:
     importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
@@ -101,7 +171,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
-  importBlendShapeDeformPercent: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

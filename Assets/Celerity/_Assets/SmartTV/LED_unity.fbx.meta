@@ -3,7 +3,32 @@ guid: 77de959cf3374c34d86e7753363d9dfc
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 5290a38effdd6ac42b47ca67154faee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chrome
+    second: {fileID: 2100000, guid: 7d290dc6fdaf4974583f236bb375bc07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frame
+    second: {fileID: 2100000, guid: a5960affdd46fe047907673ebd2ecf7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glossy Dark Grey
+    second: {fileID: 2100000, guid: 88ea40980ed4099499c144638aa14be3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LCD
+    second: {fileID: 2100000, guid: dc00c4131d5f8e641953eb2e19d993e5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
