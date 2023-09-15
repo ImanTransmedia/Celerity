@@ -7,7 +7,7 @@ VideoClipImporter:
   startFrame: -1
   endFrame: -1
   colorSpace: 0
-  deinterlace: 0
+  deinterlace: 2
   encodeAlpha: 0
   flipVertical: 0
   flipHorizontal: 0
@@ -25,7 +25,7 @@ VideoClipImporter:
     7:
       enableTranscoding: 1
       codec: 1
-      resizeFormat: 2
+      resizeFormat: 0
       aspectRatio: 0
       customWidth: 1920
       customHeight: 1080
