@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &-7101947500312471194
 MonoBehaviour:
@@ -53,8 +53,8 @@ MonoBehaviour:
       Data4: 829313890
     Path: event:/VO/HolaSoyCelty
   Event: 
-  PlayEvent: 11
-  StopEvent: 12
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
