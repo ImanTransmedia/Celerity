@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2db153b4105a614c89b51057ec26700, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2db153b4105a614c89b51057ec26700, type: 3}
       propertyPath: m_LocalPosition.x
@@ -806,6 +806,144 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7c6943e26ea43ad43972a0c12b38a305, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2db153b4105a614c89b51057ec26700, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7112721043793435153}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2db153b4105a614c89b51057ec26700, type: 3}
+--- !u!4 &2386663225035516558 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d2db153b4105a614c89b51057ec26700, type: 3}
+  m_PrefabInstance: {fileID: 2780296517100473701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3105385045456664996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2386663225035516558}
+    m_Modifications:
+    - target: {fileID: 11394479171679667, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter2.Path
+      value: event:/Objects/NormalPC/NormalPCOff
+      objectReference: {fileID: 0}
+    - target: {fileID: 11394479171679667, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter2.Guid.Data1
+      value: 33242081
+      objectReference: {fileID: 0}
+    - target: {fileID: 11394479171679667, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter2.Guid.Data2
+      value: 1244163330
+      objectReference: {fileID: 0}
+    - target: {fileID: 11394479171679667, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter2.Guid.Data3
+      value: -1354923346
+      objectReference: {fileID: 0}
+    - target: {fileID: 11394479171679667, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter2.Guid.Data4
+      value: -1196311545
+      objectReference: {fileID: 0}
+    - target: {fileID: 61413058648693308, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Size.x
+      value: 0.70397824
+      objectReference: {fileID: 0}
+    - target: {fileID: 61413058648693308, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5943453
+      objectReference: {fileID: 0}
+    - target: {fileID: 61413058648693308, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Size.z
+      value: 0.48199916
+      objectReference: {fileID: 0}
+    - target: {fileID: 61413058648693308, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Center.x
+      value: 0.015129894
+      objectReference: {fileID: 0}
+    - target: {fileID: 61413058648693308, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Center.y
+      value: -0.018257827
+      objectReference: {fileID: 0}
+    - target: {fileID: 61413058648693308, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Center.z
+      value: 0.07093644
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062902696080551590, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_Name
+      value: AudioObjectScript
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.392
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004989975776304839, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter1.Path
+      value: event:/Objects/NormalPC/NormalPCOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004989975776304839, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter1.Guid.Data1
+      value: -1152661974
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004989975776304839, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter1.Guid.Data2
+      value: 1121348233
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004989975776304839, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter1.Guid.Data3
+      value: -1052714316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8004989975776304839, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+      propertyPath: fmodEventEmitter1.Guid.Data4
+      value: 2063334192
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+--- !u!4 &7112721043793435153 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5309177867547042741, guid: 60206398fbce9a744a6c838984777f37, type: 3}
+  m_PrefabInstance: {fileID: 3105385045456664996}
+  m_PrefabAsset: {fileID: 0}
