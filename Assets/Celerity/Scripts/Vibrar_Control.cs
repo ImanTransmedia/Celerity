@@ -18,7 +18,7 @@ public class Vibrar_Control : MonoBehaviour
     }
 
     void Vibrar()
-    { ControladorOculus
+    { 
 
     }
 }
