@@ -11,13 +11,14 @@ public class objectSoundOff : MonoBehaviour
 
     private FMOD.Studio.EventInstance fmodEventInstance2;
 
-    private void Start()
+    /*private void Start()
     {
         fmodEventInstance2 = FMODUnity.RuntimeManager.CreateInstance(fmodEventEmitter2);
-    }
+    }*/
 
     public void StartStopEvent()
     {
+        fmodEventInstance2 = FMODUnity.RuntimeManager.CreateInstance(fmodEventEmitter2);
         fmodEventInstance2.start();
 
     }
