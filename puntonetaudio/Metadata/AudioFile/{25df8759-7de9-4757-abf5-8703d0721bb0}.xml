@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{25df8759-7de9-4757-abf5-8703d0721bb0}">
+		<property name="assetPath">
+			<value>CameraRef3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1eddb972-7ad0-47d9-bf32-85497f207b4a}</destination>
+		</relationship>
+	</object>
+</objects>

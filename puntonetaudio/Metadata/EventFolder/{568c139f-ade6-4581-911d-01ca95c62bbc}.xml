@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{568c139f-ade6-4581-911d-01ca95c62bbc}">
+		<property name="name">
+			<value>Alexa</value>
+		</property>
+		<relationship name="folder">
+			<destination>{20763441-21e6-4834-81fe-ce04676991b6}</destination>
+		</relationship>
+	</object>
+</objects>

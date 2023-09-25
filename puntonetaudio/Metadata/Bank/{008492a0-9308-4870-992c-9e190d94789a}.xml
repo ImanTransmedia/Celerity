@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{008492a0-9308-4870-992c-9e190d94789a}">
+		<property name="name">
+			<value>VO</value>
+		</property>
+		<relationship name="folder">
+			<destination>{dd628454-4903-4bc2-9ac4-04c56751c860}</destination>
+		</relationship>
+		<relationship name="audioTable">
+			<destination>{851e8010-1420-4ce4-8fe4-495ae256e794}</destination>
+		</relationship>
+	</object>
+	<object class="AudioTable" id="{851e8010-1420-4ce4-8fe4-495ae256e794}">
+		<property name="name">
+			<value>Celty</value>
+		</property>
+	</object>
+</objects>

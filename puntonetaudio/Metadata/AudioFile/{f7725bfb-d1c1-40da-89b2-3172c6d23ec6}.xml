@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{f7725bfb-d1c1-40da-89b2-3172c6d23ec6}">
+		<property name="assetPath">
+			<value>AlexaOffRef1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1753061224489796</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1eddb972-7ad0-47d9-bf32-85497f207b4a}</destination>
+		</relationship>
+	</object>
+</objects>
