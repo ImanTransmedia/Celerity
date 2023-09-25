@@ -122,7 +122,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7126419994019935692}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2457797650260996155, guid: 635a079de896dc346837c4a27a9ba822, type: 3}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7738205884261312742
 MonoBehaviour:
   m_ObjectHideFlags: 0

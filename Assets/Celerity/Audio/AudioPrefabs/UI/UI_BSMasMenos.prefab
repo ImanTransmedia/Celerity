@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7544213296123375840
+--- !u!1 &1366486116804524436
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7900467301357823549}
-  - component: {fileID: 5662254284194303579}
+  - component: {fileID: 3764722658429807822}
+  - component: {fileID: 2457797650260996155}
   m_Layer: 0
-  m_Name: AmbientSound
+  m_Name: UI_BSMasMenos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7900467301357823549
+--- !u!4 &3764722658429807822
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7544213296123375840}
+  m_GameObject: {fileID: 1366486116804524436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.324191, y: -0.53029585, z: -17.257673}
+  m_LocalPosition: {x: 7.1078963, y: 1.0766665, z: 0.87232596}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5662254284194303579
+--- !u!114 &2457797650260996155
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7544213296123375840}
+  m_GameObject: {fileID: 1366486116804524436}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
@@ -47,19 +47,19 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1622268900
-      Data2: 1079168905
-      Data3: -1292406385
-      Data4: -1012731950
-    Path: event:/AmbientSound/AmbientMusic1
+      Data1: 15774319
+      Data2: 1231091402
+      Data3: -716075116
+      Data4: 176251123
+    Path: event:/UI/Buttons/Click/UI_MasMenos
   Event: 
-  PlayEvent: 1
-  StopEvent: 2
+  PlayEvent: 0
+  StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
   Params: []
-  OverrideAttenuation: 0
+  OverrideAttenuation: 1
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
