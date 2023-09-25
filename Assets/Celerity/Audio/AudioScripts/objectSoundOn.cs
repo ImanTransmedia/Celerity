@@ -11,14 +11,13 @@ public class objectSoundOn : MonoBehaviour
 
     private FMOD.Studio.EventInstance fmodEventInstance1;
 
-    /*private void Start()
-    {
-        fmodEventInstance1 = FMODUnity.RuntimeManager.CreateInstance(fmodEventEmitter1);
-    }*/
+    
 
     public void StartEvent()
     {
         fmodEventInstance1 = FMODUnity.RuntimeManager.CreateInstance(fmodEventEmitter1);
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(fmodEventInstance1, GetComponent<Transform>(), GetComponent<Rigidbody>());
+        //fmodEventInstance1.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(GetComponent<Transform>(), GetComponent<Rigidbody>()));
         fmodEventInstance1.start();
                
     }
