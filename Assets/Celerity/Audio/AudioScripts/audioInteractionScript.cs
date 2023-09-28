@@ -10,13 +10,11 @@ public class audioInteractionScript : MonoBehaviour
 
     private FMOD.Studio.EventInstance fmodEventInstance3;
 
-    private void Start()
-    {
-        fmodEventInstance3 = FMODUnity.RuntimeManager.CreateInstance(fmodEventEmitter3);
-    }
-
+    
     public void InteractiveSoundEvent()
     {
+        fmodEventInstance3 = FMODUnity.RuntimeManager.CreateInstance(fmodEventEmitter3);
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(fmodEventInstance3, GetComponent<Transform>(), GetComponent<Rigidbody>());
         fmodEventInstance3.start();
 
     }
