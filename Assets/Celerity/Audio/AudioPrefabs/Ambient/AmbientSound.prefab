@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -2038085675
-      Data2: 1174338960
-      Data3: 2006832574
-      Data4: -462289577
-    Path: event:/AmbientSound/AmbientMusic4
+      Data1: 1432586198
+      Data2: 1279992720
+      Data3: -1292109410
+      Data4: 6847007
+    Path: event:/AmbientSound/AmbientMusic5
   Event: 
   PlayEvent: 1
   StopEvent: 2
