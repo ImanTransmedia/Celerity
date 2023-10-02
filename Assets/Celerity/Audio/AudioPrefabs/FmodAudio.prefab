@@ -47,6 +47,9 @@ MonoBehaviour:
   LoadEvent: 1
   UnloadEvent: 2
   Banks:
-  - Referencias
+  - MUSIC
+  - SFX
+  - UI
+  - VO
   CollisionTag: 
   PreloadSamples: 0
