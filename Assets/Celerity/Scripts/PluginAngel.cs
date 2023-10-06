@@ -9,5 +9,21 @@ public static class PluginAngel
         return randomValue;
     }
 
+    public static void ActivarComponente<T>(GameObject gameObject) where T : MonoBehaviour
+    {
+        T componente = gameObject.GetComponent<T>();
+        if (componente != null)
+        {
+            componente.enabled = true;
+        }
+    }
 
+    public static void DesactivarComponente<T>(GameObject gameObject) where T : MonoBehaviour
+    {
+        T componente = gameObject.GetComponent<T>();
+        if (componente != null)
+        {
+            componente.enabled = false;
+        }
+    }
 }
