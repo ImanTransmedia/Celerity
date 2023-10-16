@@ -1,5 +1,8 @@
 
 using UnityEngine;
+using System.Collections.Generic;
+using System.Reflection;
+using Unity.VisualScripting;
 
 public static class PluginAngel
 {
@@ -26,4 +29,41 @@ public static class PluginAngel
             componente.enabled = false;
         }
     }
+
+   /* public static bool TodosLosObjetosEstanActivos(List<GameObject> objetos, string Activo)
+    {
+        
+        foreach (GameObject objeto in objetos)
+        {
+            FieldInfo fieldInfo = objeto.GetType().GetField(Activo)
+            if (!objeto.)
+            {
+                return false;
+            }
+        }
+        return true;
+    }*/
+
+    public static bool TodosLosObjetosEstanActivos(List<GameObject> objetos, string nombreVariableBooleana)
+    {
+        foreach (GameObject objeto in objetos)
+        {
+            FieldInfo fieldInfo = objeto.GetType().GetField(nombreVariableBooleana);
+            if (fieldInfo != null)
+            {
+                bool valorBooleano = (bool)fieldInfo.GetValue(objeto);
+                if (!valorBooleano)
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                Debug.LogWarning($"La variable '{nombreVariableBooleana}' no se encontró en el objeto '{objeto.name}'.");
+            }
+        }
+        return true;
+    }
+
+
 }
