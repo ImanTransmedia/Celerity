@@ -317,7 +317,7 @@ GameObject:
   - component: {fileID: 6344545619546716507}
   - component: {fileID: 2748913878524899707}
   m_Layer: 0
-  m_Name: FuncionalidadlAPTOP
+  m_Name: FuncionalidadLaptop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,12 +359,17 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GoON","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GoOFF","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Activo","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ThumbWifi","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ThumbVelocidad","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"VelocidadDispositivo","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1584606755773962743}
     - {fileID: 1838170599194498089}
     - {fileID: 1584606755773962743}
     - {fileID: 1584606755773962743}
+    - {fileID: 8992182063783068125}
+    - {fileID: 2534071481793429070}
 --- !u!114 &2748913878524899707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,11 +1818,33 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5684098691962869496, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
   m_PrefabInstance: {fileID: 6605136517503752976}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2534071481793429070 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8683217419981497694, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
+  m_PrefabInstance: {fileID: 6605136517503752976}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &4737553551267311051 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1879412200769599195, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
   m_PrefabInstance: {fileID: 6605136517503752976}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8992182063783068125 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2837423187386981069, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
+  m_PrefabInstance: {fileID: 6605136517503752976}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8525398965760131067
 PrefabInstance:
   m_ObjectHideFlags: 0
