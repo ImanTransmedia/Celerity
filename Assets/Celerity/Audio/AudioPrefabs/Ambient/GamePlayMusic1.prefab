@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7900467301357823549}
   - component: {fileID: 5662254284194303579}
   m_Layer: 0
-  m_Name: AmbientSound
+  m_Name: GamePlayMusic1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1432586198
-      Data2: 1279992720
-      Data3: -1292109410
-      Data4: 6847007
-    Path: event:/AmbientSound/AmbientMusic5
+      Data1: 100741250
+      Data2: 1289304313
+      Data3: -263212664
+      Data4: 1887805937
+    Path: event:/AmbientSound/GamePlayMusic1
   Event: 
   PlayEvent: 1
   StopEvent: 2
