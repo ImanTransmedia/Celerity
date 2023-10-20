@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3433088921677112116}
   - component: {fileID: 8071746519314980051}
   - component: {fileID: 2837423187386981069}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Status_Wifi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 2244540038205650809}
   - component: {fileID: 7577059633178641283}
   - component: {fileID: 7313012804804385922}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 8144647770195389117}
   - component: {fileID: 3754849142221462221}
   - component: {fileID: 8683217419981497694}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Status_Velocidad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 741637143551851431}
   - component: {fileID: 7050154248682024109}
   - component: {fileID: 7396673759992453157}
-  m_Layer: 4
+  m_Layer: 0
   m_Name: Canvas_StatusDispositivo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

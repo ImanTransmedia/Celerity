@@ -1,4 +1,10 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR;
+using UnityEngine.XR.Management;
+using Unity.XR.Oculus;
+using System.Timers;
 using Oculus;
 
 public static class ControladorOculus
@@ -61,5 +67,21 @@ public static void PararControl()
         }
         //OVRHaptics.Channels[1].Preempt(MiClip);
     }
+
+    //OVRInput.Controller controller
+    public static void VibrateController2(float Strenght, float vibrationDuration, OVRInput.Controller control)
+    {
+        OVRInput.SetControllerVibration(Strenght, Strenght, control);
+
+        Timer timer = new Timer(vibrationDuration * 1000);
+        timer.Elapsed += (sender, e) =>
+        {
+            OVRInput.SetControllerVibration(0f, 0f, control);
+            ((Timer)sender).Dispose();
+        };
+        timer.AutoReset = false;
+        timer.Enabled = true;
+    }
+
 }
 
