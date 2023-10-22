@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 9148042585252866173}
   - component: {fileID: 8088889651852416954}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Plane_sombra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1172,31 +1172,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Componentes","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
-        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"boton","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Componentes","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+        Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"boton","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Activo","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"VelocidadDispositivo","value":{"$content":4,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ThumbWifi","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ThumbVelocidad","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Image,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UI","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ThumbWifi","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ThumbVelocidad","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Image,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"UI","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"faltaVelocidad?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"faltaCobertura?","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IDRuter","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 4680109000887048495}
+      objectReference: {fileID: 585439709766095848}
     - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 7822794850149184463}
+      objectReference: {fileID: 3901412216057450261}
+    - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 7607369594590734868}
     - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
+      value: 
+      objectReference: {fileID: 3923408441768629639}
+    - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
+      propertyPath: _data._objectReferences.Array.data[4]
+      value: 
+      objectReference: {fileID: 5553260570994209}
+    - target: {fileID: 9001632580677062849, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
+      propertyPath: _data._objectReferences.Array.data[5]
       value: 
       objectReference: {fileID: 5553260570994209}
     m_RemovedComponents: []
@@ -1207,6 +1220,11 @@ PrefabInstance:
 --- !u!4 &3134274813263749708 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4645314361814382, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
+  m_PrefabInstance: {fileID: 3129912361166425890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3901412216057450261 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2110841361293148215, guid: ccfd91815b299b64fb6903564bdde098, type: 3}
   m_PrefabInstance: {fileID: 3129912361166425890}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5688682998964711641
@@ -1327,18 +1345,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5684098691962869496, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
   m_PrefabInstance: {fileID: 5688682998964711641}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &4680109000887048495 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1009181641826068982, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
+--- !u!114 &3923408441768629639 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8683217419981497694, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
   m_PrefabInstance: {fileID: 5688682998964711641}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &6117929521542874626 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1879412200769599195, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
   m_PrefabInstance: {fileID: 5688682998964711641}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7822794850149184463 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2477654294182871830, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
+--- !u!114 &7607369594590734868 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2837423187386981069, guid: ed122b7cb5a332544b6fa97a22f24dfa, type: 3}
   m_PrefabInstance: {fileID: 5688682998964711641}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
